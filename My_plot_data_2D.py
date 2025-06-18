@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
 import matplotlib
-matplotlib.use('TkAgg')
+# matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from scipy.spatial.transform import Rotation
 
@@ -139,8 +139,10 @@ if __name__ == "__main__":
         plt.plot([-0.5, 10], [0, 0], 'k--')
 
 
-        plt.xlim([-0.5, 10])
-        plt.ylim([-0.1, 1])
+        plt.xlim([-1.0279631452507143, 10.587226050264999])
+        plt.ylim([-0.6942565419522835, 1.494300720914991])
+        # plt.axis('equal')
+        # plt.ylim([-0.1, 1])
 
         plt.tight_layout()
         plt.show()
